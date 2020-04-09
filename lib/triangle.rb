@@ -20,7 +20,7 @@ class Triangle
        :equilateral 
      elsif 
         @a != @b && @b != @c && @a != @c
-        :isosceles
+        :scalene
      else 
        :isosceles
      end
