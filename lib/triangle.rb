@@ -13,7 +13,10 @@ class Triangle
    
  end 
  
- def valid_types
+ def valid_types 
+   
+   if a == b && b == c && a == c
+     
  
   class TriangleError < StandardError
     # triangle error code
