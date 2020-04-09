@@ -10,7 +10,10 @@ class Triangle
  end
  
  def kind 
+   
  end 
+ 
+ def valid_types
  
   class TriangleError < StandardError
     # triangle error code
