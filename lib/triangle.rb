@@ -7,6 +7,9 @@ class Triangle
    @c = c
  end
  
+ def kind 
+ end 
+ 
   class TriangleError < StandardError
     # triangle error code
   end
