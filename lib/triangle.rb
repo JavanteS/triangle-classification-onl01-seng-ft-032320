@@ -19,7 +19,7 @@ class Triangle
      if @a == @b && @b == @c && @a == @c
        :equilateral 
      elsif 
-        @a == @b && @b != @c && @a != @a 
+        @a == @b && @b != @c && @a != @b
         :isosceles
      else 
        
